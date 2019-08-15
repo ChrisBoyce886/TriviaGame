@@ -5,6 +5,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.card-body1 , .card-body2 , .card-body3 , .card-body4 , .card-body5 , .card-body6 , .card-body7 , .card-body8 , .card-body9 , .card-body10 {
+    padding: 25px;
+}
+
 #startBtn {
     text-align: center;
     margin-top: 500px; 
