@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/flipclock.css">
         
     <link rel="stylesheet" href="assets/css/style.css">
     
@@ -25,75 +27,310 @@
     <div id="stars2"></div>
     <div id="stars3"></div>
     
-    <div id="start-page"> 
-        <span id="title">SPACE TRIVIA</span>     
+    <div class="text-center"id="start-page"> 
+        <span class="mx-auto" id="title">&nbspDEEP SPACE <br> TRIVIA</span>     
         <button type="button" class="btn btn-outline-success text-center" id="startBtn">Start</button>
     </div>  
 
     <div id="index2">
-    <span id="title2">SPACE TRIVIA</span>
-    
-        <div class="card" id="index2Card1">
+    <span id="title2">DEEP SPACE TRIVIA</span>
+
+
+    <div class="card" id="indexCard">
             <div class="card-header" id="card-header">
-                Question 1: 
+                Question 1:
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">How old is the universe?</h5>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">12.8 million years old</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">210.1 million years old</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">13.8 billion years old</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">32.2 billion years old</label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card" id="indexCard">
+            <div class="card-header" id="card-header">
+                 Question 2:
             </div>
             <div class="card-body">
                 <h5 class="card-title">What type of galaxy is the most common in the universe?</h5>
+                <br>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1"></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Spiral galaxies</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2"></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Elliptical galaxies</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                        <label class="form-check-label" for="inlineRadio3"></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Lenticular galaxies</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                        <label class="form-check-label" for="inlineRadio4"></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">Irregular galaxies</label>
                 </div>
             </div>
         </div>
 
-        <div class="card" id="index2Card2">
+
+      <div class="card" id="indexCard">
             <div class="card-header" id="card-header">
-                Question 2: 
+                 Question 3:
             </div>
             <div class="card-body">
-                <h5 class="card-title">How old is the universe in years? (Plus or minus 1 billion years.)</h5>
+                <h5 class="card-title">What shape is our Milky Way Galaxy?</h5>
+                <br>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1"></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Spiral galaxy</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2"></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Elliptical galaxy</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                        <label class="form-check-label" for="inlineRadio3"></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Lenticular galaxy</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                        <label class="form-check-label" for="inlineRadio4"></label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">Irregular galaxy</label>
                 </div>
-            
-
-
+            </div>
         </div>
-    </div>
-    
-    
-                    
-     
 
+   
+        <div class="card" id="indexCard">
+            <div class="card-header" id="card-header">
+                Question 4: 
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">What is the most common type of star found in the Milky Way?</h5>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Red Dwarf stars</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">White Dwarf stars</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Protostars</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">Red Supergiant stars</label>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="card" id="indexCard">
+            <div class="card-header" id="card-header">
+                Question 5:
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">What is the largest type of star in the universe?</h5>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Red Supergiant stars</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Neutron stars</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Blue Supergiant stars</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">Pulsar stars</label>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="card" id="indexCard">
+            <div class="card-header" id="card-header">
+                Question 6:
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">How many miles per second (mi/s) does light travel?</h5>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">150 mi/s</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">5,876.763 mi/s</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">186,282.397 mi/s</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions5" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">1,896,687.323 mi/s</label>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="card" id="indexCard">
+            <div class="card-header" id="card-header">
+              Question 7:   
+            </div>
+            <div class="card-body">
+                <h5 class="card-title"> What is the distance between Earth and the center of the Milky Way galaxy?</h5>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">25 light years</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">250 light years</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">25,000 light years</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">250,000 light years</label>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="card" id="indexCard">
+            <div class="card-header" id="card-header">
+                 Question 8:
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Approximately how long does it take our Solar System to orbit the Milky Way one time?</h5>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">12,000 years</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">560,000 years </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">6.9 million years</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions7" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">230 million years</label>
+                </div>
+            </div>
+        </div>
+
+
+     <div class="card" id="indexCard">
+            <div class="card-header" id="card-header">
+                 Question 9:
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">How many galaxies are estimated to be in our observable universe?</h5>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions8" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">1,500 galaxies</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions8" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">500,000 galaxies</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions8" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">100 million galaxies</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions8" id="inlineRadio4" value="option4">
+                        <label class="form-check-label" for="inlineRadio4">200 billion galaxies</label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card" id="indexCard">
+        <div class="card-header" id="card-header">
+                 BONUS - Question 10:
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">True or False: <br> There more individual stars in the universe than individual grains of sand on all of Earth's beaches.</h5>
+                <br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions9" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">True</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions9" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">False</label>
+                </div>
+            </div>
+        </div>
+  
+
+        <div class="text-center">
+            <button type="button" class="btn btn-outline-success text-center" id="submitBtn">Submit Answers</button>
+        </div>
+        
+
+        <div class="footer">
+            <div class="clock"></div>            
+        </div>
+
+         
+    </div>                   
+     
+    <div id="index3">
+        <span id="title3">&nbspDEEP SPACE <br> TRIVIA</span>
+        
+        <div class="card mx-auto" id="indexCard2">
+            <div class="card-header text-center">
+                 <h5>Your Results</h5>
+            </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> Correct Answers: <p id="correct">10 </p></li>
+                  <li class="list-group-item"> Wrong Answers: <p id="wrong"> 10</p></li>
+                  <li class="list-group-item"> Score: <b id="score">100% </b></li>
+                </ul>
+              </div>
+
+
+    </div>
 
 
 
 <script src="assets/javascript/app.js" type="text/javascript"></script>
+<script src="assets/javascript/flipclock.min.js"></script>
 
 </body>
 </html>
