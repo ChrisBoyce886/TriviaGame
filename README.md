@@ -8,7 +8,7 @@ Click [here]( https://chrisboyce886.github.io/TriviaGame/ ) to play the game.
 
 ## How to Play
 * Click Start
-* Timer will automaically start - you will have 1 minute and 30 seconds to complete the 10 question trivia game
+* Timer will automatically start - you will have 1 minute and 30 seconds to complete the 10 question trivia game
 * Choose one answer per question and try to get a score of 100%!
 * When the trivia game is completed press 'Submit' to see your results.
 * If the timer hits 00:00 before you are done the game will automatically stop and will display your results. 
@@ -16,7 +16,7 @@ Click [here]( https://chrisboyce886.github.io/TriviaGame/ ) to play the game.
 ## Design Notes
 * Each correct answer is logged and counts the number of correct answers selected according to specific id tag of each radio button. 
 * That number is subtracted from 10 to get the incorrect answers.
-* The number of correct answers is diveded by 10 and multiplied by 100 to get score percentage. 
+* The number of correct answers is divided by 10 and multiplied by 100 to get score percentage. 
 * All results are displayed when game is over.
 
 ## Built With
