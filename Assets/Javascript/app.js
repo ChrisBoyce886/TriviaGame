@@ -84,7 +84,11 @@ $(document).ready(function() {
     $("input[name=inlineRadioOptions10]").prop("checked", false);
     //Reset right and wrong answers to 0
     correct = 0;
+    $("#correct").empty().append("");
     wrong = 0;
+    $("#wrong").empty().append("");
+    let score = 0;
+    $("#score").empty().append("");    
   });
 
 
@@ -106,11 +110,11 @@ $(document).ready(function() {
     //If the newly assigned variable matches the answer declared above for this question in the answers object, run the score function to keep track of score
     if (answer1 === answers.q1) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct); //THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       //If the 'correct' variable has a number higher than the current question number, drop the number to enure only 10 possible answers max. 
       if (correct > 1) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -120,10 +124,10 @@ $(document).ready(function() {
     answer2 = $("input[name=inlineRadioOptions2]:checked", ".card-body2").val();
     if (answer2 === answers.q2) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 2) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -132,10 +136,10 @@ $(document).ready(function() {
     answer3 = $("input[name=inlineRadioOptions3]:checked", ".card-body3").val();
     if (answer3 === answers.q3) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 3) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -144,10 +148,10 @@ $(document).ready(function() {
     answer4 = $("input[name=inlineRadioOptions4]:checked", ".card-body4").val();
     if (answer4 === answers.q4) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 4) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -156,10 +160,10 @@ $(document).ready(function() {
     answer5 = $("input[name=inlineRadioOptions5]:checked", ".card-body5").val();
     if (answer5 === answers.q5) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 5) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -168,10 +172,10 @@ $(document).ready(function() {
     answer6 = $("input[name=inlineRadioOptions6]:checked", ".card-body6").val();
     if (answer6 === answers.q6) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 6) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -180,10 +184,10 @@ $(document).ready(function() {
     answer7 = $("input[name=inlineRadioOptions7]:checked", ".card-body7").val();
     if (answer7 === answers.q7) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 7) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -192,10 +196,10 @@ $(document).ready(function() {
     answer8 = $("input[name=inlineRadioOptions8]:checked", ".card-body8").val();
     if (answer8 === answers.q8) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 8) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -204,9 +208,10 @@ $(document).ready(function() {
     answer9 = $("input[name=inlineRadioOptions9]:checked", ".card-body9").val();
     if (answer9 === answers.q9) {
       score();
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 9) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
@@ -215,10 +220,10 @@ $(document).ready(function() {
     answer10 = $("input[name=inlineRadioOptions10]:checked", ".card-body10").val();
     if (answer10 === answers.q10) {
       score();
-      console.log("Correct: " + correct);
+      console.log("Correct: " + correct);//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       if (correct > 10) {
         correct--;
-        console.log("Correct: " + correct);
+        console.log("Correct: " + correct);;//THIS LINE IS MEANT TO BE DELETED TO AVOID CHEATING BUT IS BEING KEPT FOR DEMONSTRATION 
       }
     }
   });
