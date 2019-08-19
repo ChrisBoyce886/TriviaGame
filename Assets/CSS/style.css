@@ -14,8 +14,7 @@ body {
     margin-top: 500px; 
     padding: 10px 20px;
     font-size: 20px;
-    width: 150px;
-    
+    width: 150px;    
 }
 
 #submitBtn {
@@ -39,7 +38,7 @@ body {
     margin-right: 18%; */
     margin-top: 3%;
     opacity: .8;   
-    width: 400px 
+    width: 400px;
 } 
 
 #index2 {
@@ -47,23 +46,30 @@ body {
 }
 
 #index3 {
-    margin-top: 15%;
+    margin-top: 16%;
 }
 
 #correct {
     color: green;
-    display: inline
+    display: inline;
 }
 
 #wrong {
     color: rgb(173, 23, 23);
     display: inline;
-
 }
 
 #score {
     display: inline;
+}
 
+#restartBtn {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 3%;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 250px;
 }
 
 input[type='radio'] {
