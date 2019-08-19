@@ -18,6 +18,7 @@ Click [here]( https://chrisboyce886.github.io/TriviaGame/ ) to play the game.
 * That number is subtracted from 10 to get the incorrect answers.
 * The number of correct answers is divided by 10 and multiplied by 100 to get score percentage. 
 * All results are displayed when game is over.
+* Background skeleton code thanks to @saransh & @BreannW on Codepen.com!
 
 ## Built With
 * HTML5
