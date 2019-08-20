@@ -10,7 +10,7 @@ $(document).ready(function() {
     q2: "Elliptical galaxies",
     q3: "Spiral galaxy",
     q4: "Red Dwarf stars",
-    q5: "Red Supergiant stars",
+    q5: "Red Hypergiant stars",
     q6: "186,282.397 mi/s",
     q7: "25,000 light years",
     q8: "230 million years",
