@@ -26,3 +26,7 @@ Click [here]( https://chrisboyce886.github.io/TriviaGame/ ) to play the game.
 * [Bootstrap 4](https://getbootstrap.com/)
 * Javascript
 * [jQuery Library](https://jquery.com/)
+
+## Demonstraion gif:
+   
+   ![TriviaGame](screenshots/deep-space-trivia.gif "deep-space-trivia.gif")
