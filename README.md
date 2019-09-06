@@ -21,12 +21,13 @@ Click [here]( https://chrisboyce886.github.io/TriviaGame/ ) to play the game.
 * Background animation skeleton code thanks to @saransh & @BreannW on Codepen.com!
 
 ## Built With
-* HTML5
-* CSS3
-* [Bootstrap 4](https://getbootstrap.com/)
 * JavaScript
 * [jQuery Library](https://jquery.com/)
+* [Bootstrap 4](https://getbootstrap.com/)
+* HTML5
+* CSS3
 
-## Demonstraion gif:
+
+## Demonstration gif:
    
    ![TriviaGame](Assets/screenshot/deep-space-trivia.gif "deep-space-trivia.gif")
