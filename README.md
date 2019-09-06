@@ -24,7 +24,7 @@ Click [here]( https://chrisboyce886.github.io/TriviaGame/ ) to play the game.
 * HTML5
 * CSS3
 * [Bootstrap 4](https://getbootstrap.com/)
-* Javascript
+* JavaScript
 * [jQuery Library](https://jquery.com/)
 
 ## Demonstraion gif:
