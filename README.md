@@ -29,4 +29,4 @@ Click [here]( https://chrisboyce886.github.io/TriviaGame/ ) to play the game.
 
 ## Demonstraion gif:
    
-   ![TriviaGame](screenshots/deep-space-trivia.gif "deep-space-trivia.gif")
+   ![TriviaGame](Assets/screenshot/deep-space-trivia.gif "deep-space-trivia.gif")
